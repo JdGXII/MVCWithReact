@@ -200,6 +200,8 @@ csx/
 ecf/
 rcf/
 
+#Node Modules
+/[Ss]cripts/react-components/node_modules
 # Windows Store app package directories and files
 AppPackages/
 BundleArtifacts/
