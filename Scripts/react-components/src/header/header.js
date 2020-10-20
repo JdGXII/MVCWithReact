@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom';
+import HeaderButton from './headerButton'
 
 class Header extends Component {
+    
     render() {
         return (
             <div>

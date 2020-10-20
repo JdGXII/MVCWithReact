@@ -1,5 +1,4 @@
 ﻿body {
-    padding-top: 50px;
     padding-bottom: 20px;
 }
 
@@ -21,4 +20,32 @@ input,
 select,
 textarea {
     max-width: 280px;
+}
+
+div.sandbox_header input.submit {
+    display: none !important;
+}
+
+#header-returnLink {
+    padding: 8px;
+    background-color: #404040;
+    color: white;
+    font-size: 80%;
+}
+
+    #header-returnLink a {
+        color: blue;
+        text-decoration: none;
+    }
+
+#header-image {
+    background: url('https://contentserver.destinationrx.com/drxproductcontent/phoenix/assets/connecture_logo/admin/drx_connecture_color.png') no-repeat;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 80px !important;
+}
+
+#header-divider {
+    height: 12px;
+    background-color: #EF7627;
 }
